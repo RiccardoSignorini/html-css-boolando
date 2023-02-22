@@ -8,10 +8,13 @@
 /* HEADER */
 #back-og{
     background-color: orange;
-    font-size: 20px;
+    line-height: 50px;
+}
+
+.identic-size{
+    font-size: 16px;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 10px;
     display: flex;
     color: white;
 }
@@ -34,9 +37,17 @@ ul > li{
     text-align: center;
 }
 
-#right{
+.right{
     text-align: end;
 }
 
 /* FOOTER */
-#back-black
+#back-black{
+    background-color: darkslategray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.dim50{
+    width: 50%;
+}
