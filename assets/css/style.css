@@ -1,0 +1,42 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+#back-og{
+    background-color: orange;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    display: flex;
+    color: white;
+}
+
+ul > li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.dim25{
+    width: 25%;
+}
+
+#center{
+    width: 50%;
+    text-align: center;
+}
+
+#right{
+    text-align: end;
+}
+
+/* FOOTER */
+#back-black
