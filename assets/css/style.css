@@ -41,6 +41,30 @@ ul > li{
     text-align: end;
 }
 
+/* MAIN */
+.img-size{
+    width: 250px;
+    height: 350px;
+}
+
+#font-size{
+    font-size: 10px;
+    color: grey;
+}
+
+.black-bold{
+    color: black;
+    font-weight: bold;
+}
+
+.centratura{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.centratura > div{
+    padding: 10px;
+}
 /* FOOTER */
 #back-black{
     background-color: darkslategray;
@@ -50,4 +74,8 @@ ul > li{
 
 .dim50{
     width: 50%;
+}
+
+.text-red{
+    color: red;
 }
