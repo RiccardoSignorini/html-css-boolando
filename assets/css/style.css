@@ -65,6 +65,21 @@ ul > li{
 .centratura > div{
     padding: 10px;
 }
+
+.back-red{
+    background-color: red;
+    color: white;
+}
+
+.back-green{
+    background-color: green;
+    color: white;
+}
+
+.back-white{
+    background-color: white;
+    color: black;
+}
 /* FOOTER */
 #back-black{
     background-color: darkslategray;
