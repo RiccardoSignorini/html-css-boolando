@@ -13,8 +13,8 @@
 
 .identic-size{
     font-size: 16px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     display: flex;
     color: white;
 }
@@ -30,9 +30,11 @@ ul > li{
 
 .dim25{
     width: 25%;
+    padding-top: 5px;
 }
 
 #center{
+    padding-top: 15px;
     width: 50%;
     text-align: center;
 }
@@ -42,14 +44,21 @@ ul > li{
 }
 
 /* MAIN */
-.img-size{
-    width: 250px;
-    height: 350px;
-}
-
 #font-size{
     font-size: 10px;
     color: grey;
+}
+
+.img-b{
+    display: none;
+}
+
+.change:hover .img-a{
+    display: none;
+}
+
+.change:hover .img-b{
+    display: block;
 }
 
 .black-bold{
@@ -63,7 +72,7 @@ ul > li{
 }
 
 .centratura > div{
-    padding: 10px;
+    padding: 15px;
 }
 
 .back-red{
@@ -80,6 +89,36 @@ ul > li{
     background-color: white;
     color: black;
 }
+
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.basso{
+    bottom: 40px;
+    left: -20px;
+    padding: 3px;
+}
+
+.alto{
+    bottom: 340px;
+    left: 233px;
+    padding: 5px;
+}
+
+.back-white:hover{
+    color: red;
+}
+
+.inline-block > div > img{
+    width: 250px;
+    height: 350px;
+}
+
 /* FOOTER */
 #back-black{
     background-color: darkslategray;
@@ -93,4 +132,9 @@ ul > li{
 
 .text-red{
     color: red;
+}
+
+#info > li{
+    font-size: 10px;
+    padding-right: 5px;
 }
